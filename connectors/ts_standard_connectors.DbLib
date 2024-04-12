@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\lwjde\Documents\GitHub\ts_standard_library\connectors\ts_standard_connectors.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\lwjde\Documents\GitHub\TS_24_Components\connectors\ts_standard_connectors.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -37,7 +37,7 @@ SchemaName=
 TableName=Deutsch DT$
 Enabled=True
 UserWhere=0
-UserWhereText=[Part Number] = '{Part Number}' AND [Footprint Ref] = '{Footprint Ref}'
+UserWhereText=
 [Table4]
 SchemaName=
 TableName=Generic$
@@ -107,15 +107,15 @@ Options=FieldName=DTM$.Footprint Ref|TableNameOnly=DTM$|FieldNameOnly=Footprint 
 [FieldMap10]
 Options=FieldName=DTM$.Footprint Path|TableNameOnly=DTM$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
-Options=FieldName=Deutsch DT$.Library Ref|TableNameOnly=Deutsch DT$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap12]
-Options=FieldName=Deutsch DT$.Library Path|TableNameOnly=Deutsch DT$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap13]
-Options=FieldName=Deutsch DT$.Footprint Ref|TableNameOnly=Deutsch DT$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap14]
-Options=FieldName=Deutsch DT$.Footprint Path|TableNameOnly=Deutsch DT$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap15]
 Options=FieldName=Deutsch DT$.Part Number|TableNameOnly=Deutsch DT$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=Deutsch DT$.Library Ref|TableNameOnly=Deutsch DT$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=Deutsch DT$.Library Path|TableNameOnly=Deutsch DT$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=Deutsch DT$.Footprint Ref|TableNameOnly=Deutsch DT$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=Deutsch DT$.Footprint Path|TableNameOnly=Deutsch DT$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
 Options=FieldName=Generic$.Part Number|TableNameOnly=Generic$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
