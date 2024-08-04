@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Bradley\Documents\GitHub\TS_24_Components\components\ts_standard_library.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Ethan\Documents\GitHub\TS_24_Components\components\ts_standard_library.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -26,9 +26,6 @@ TableName=Capacitors$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=136|Library Ref0=113|Library Path0=93|Footprint Ref0=103|Footprint Path0=98|Manufacturer0=164|Value0=52|Rated Voltage0=96|Tolerance0=73|Material0=121|Temperature Rating0=125|Status0=55|Stock0=51|Digikey Part Number0=183|Digikey Stock0=92|Mouser Part Number0=129|Mouser Stock0=93
 [Table2]
 SchemaName=
 TableName=Comparators$
