@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\simon\OneDrive\Documents\GitHub\TS_24_Components\connectors\ts_standard_connectors.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Bradley\Documents\GitHub\TS_24_Components\connectors\ts_standard_connectors.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,7 +19,7 @@ LibrarySearchPath=..\connectors
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=Ampseal$
+LastFocusedTable=Molex Minifit$
 [Table1]
 SchemaName=
 TableName=Ampseal$
@@ -68,6 +68,9 @@ TableName=Molex Minifit$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Library Path0=124|Footprint Ref0=92|Footprint Path0=124|Positions0=70|Pitch0=48|Row Spacing0=90|Angle0=53|Flange0=58|Contact0=63|Digikey Part Number0=128|Digikey Link0=397
 [Table9]
 SchemaName=
 TableName=TH 025$
